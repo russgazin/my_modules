@@ -1,7 +1,19 @@
-variable "subnets" {
-  type = map(any)
+variable "vpc_id" {
+  
 }
 
-variable "vpc_id" {
-  type = string
+variable "cidr_block" {
+  
+}
+
+variable "availability_zone" {
+  
+}
+
+variable "map_public_ip_on_launch" {
+  
+}
+
+variable "subnet_tag" {
+  
 }
