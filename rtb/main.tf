@@ -15,5 +15,5 @@ resource "aws_route_table" "rtb" {
 resource "aws_route_table_association" "assoc" {
   count          = length(var.subnets)
   subnet_id      = var.subnets[count.index]
-  route_table_id = aws_route_table.my_rtb.id
+  route_table_id = aws_route_table.rtb.id
 }
