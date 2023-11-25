@@ -5,3 +5,7 @@ variable "cidr_block" {
 variable "vpc_tag" {
   type = string
 }
+
+variable "create_attach_igw" {
+  
+}
