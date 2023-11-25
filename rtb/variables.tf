@@ -10,3 +10,6 @@ variable "nat_gateway_id" {
   
 }
 
+variable "subnets" {
+  
+}
