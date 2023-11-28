@@ -1,6 +1,4 @@
 variable "db_subnet_group_name" {}
-variable "db_subnet_group_subnet_ids" {}
-variable "db_subnet_group_tag" {}
 variable "allocated_storage" {}
 variable "engine" {}
 variable "engine_version" {}
